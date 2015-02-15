@@ -1,0 +1,837 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4068CC01A91444F00C30BAB /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4068CBF1A91444F00C30BAB /* Vector.swift */; };
+		B4068CC21A9147B000C30BAB /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4068CC11A9147B000C30BAB /* Matrix.swift */; };
+		B4068CC41A9147E200C30BAB /* Algorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4068CC31A9147E200C30BAB /* Algorithms.swift */; };
+		B4068CC61A91482100C30BAB /* Ciphers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4068CC51A91482100C30BAB /* Ciphers.swift */; };
+		B447DFF71A913C6C00E582A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B447DFF51A913C6C00E582A8 /* Main.storyboard */; };
+		B447DFF91A913C6C00E582A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B447DFF81A913C6C00E582A8 /* Images.xcassets */; };
+		B447DFFC1A913C6C00E582A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B447DFFA1A913C6C00E582A8 /* LaunchScreen.xib */; };
+		B447E0081A913C6C00E582A8 /* MathKitFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B447E0071A913C6C00E582A8 /* MathKitFrameworkTests.swift */; };
+		B447E01B1A913C8100E582A8 /* MathKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B447E01A1A913C8100E582A8 /* MathKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B447E0211A913C8100E582A8 /* MathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B447E0161A913C8100E582A8 /* MathKit.framework */; };
+		B447E02A1A913C8100E582A8 /* MathKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B447E0291A913C8100E582A8 /* MathKitTests.swift */; };
+		B447E02D1A913C8100E582A8 /* MathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B447E0161A913C8100E582A8 /* MathKit.framework */; };
+		B447E02E1A913C8100E582A8 /* MathKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B447E0161A913C8100E582A8 /* MathKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B447E03D1A913CED00E582A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B447E0381A913CED00E582A8 /* AppDelegate.swift */; };
+		B447E03E1A913CED00E582A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B447E03A1A913CED00E582A8 /* ViewController.swift */; };
+		B447E0491A913DF900E582A8 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B447E0431A913DF800E582A8 /* Circle.swift */; };
+		B447E04A1A913DF900E582A8 /* ImaginaryNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B447E0441A913DF800E582A8 /* ImaginaryNumber.swift */; };
+		B447E04B1A913DF900E582A8 /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = B447E0451A913DF800E582A8 /* Number.swift */; };
+		B447E04C1A913DF900E582A8 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = B447E0461A913DF900E582A8 /* Point.swift */; };
+		B447E04D1A913DF900E582A8 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B447E0471A913DF900E582A8 /* Rectangle.swift */; };
+		B447E04E1A913DF900E582A8 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B447E0481A913DF900E582A8 /* Shape.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B447E0021A913C6C00E582A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B447DFE41A913C6C00E582A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B447DFEB1A913C6C00E582A8;
+			remoteInfo = MathKitFramework;
+		};
+		B447E0221A913C8100E582A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B447DFE41A913C6C00E582A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B447E0151A913C8100E582A8;
+			remoteInfo = MathKit;
+		};
+		B447E0241A913C8100E582A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B447DFE41A913C6C00E582A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B447DFEB1A913C6C00E582A8;
+			remoteInfo = MathKitFramework;
+		};
+		B447E02B1A913C8100E582A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B447DFE41A913C6C00E582A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B447E0151A913C8100E582A8;
+			remoteInfo = MathKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B447E0321A913C8100E582A8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B447E02E1A913C8100E582A8 /* MathKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B4068CBF1A91444F00C30BAB /* Vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
+		B4068CC11A9147B000C30BAB /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		B4068CC31A9147E200C30BAB /* Algorithms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Algorithms.swift; sourceTree = "<group>"; };
+		B4068CC51A91482100C30BAB /* Ciphers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ciphers.swift; sourceTree = "<group>"; };
+		B4068CC71A91486A00C30BAB /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B4068CC81A91486A00C30BAB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B447DFEC1A913C6C00E582A8 /* MathKitFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathKitFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B447DFF01A913C6C00E582A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B447DFF61A913C6C00E582A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B447DFF81A913C6C00E582A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B447DFFB1A913C6C00E582A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B447E0011A913C6C00E582A8 /* MathKitFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathKitFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B447E0061A913C6C00E582A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B447E0071A913C6C00E582A8 /* MathKitFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathKitFrameworkTests.swift; sourceTree = "<group>"; };
+		B447E0161A913C8100E582A8 /* MathKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MathKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B447E0191A913C8100E582A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B447E01A1A913C8100E582A8 /* MathKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathKit.h; sourceTree = "<group>"; };
+		B447E0201A913C8100E582A8 /* MathKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B447E0281A913C8100E582A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B447E0291A913C8100E582A8 /* MathKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathKitTests.swift; sourceTree = "<group>"; };
+		B447E0381A913CED00E582A8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B447E03A1A913CED00E582A8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B447E0431A913DF800E582A8 /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		B447E0441A913DF800E582A8 /* ImaginaryNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImaginaryNumber.swift; sourceTree = "<group>"; };
+		B447E0451A913DF800E582A8 /* Number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Number.swift; sourceTree = "<group>"; };
+		B447E0461A913DF900E582A8 /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		B447E0471A913DF900E582A8 /* Rectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		B447E0481A913DF900E582A8 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B447DFE91A913C6C00E582A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B447E02D1A913C8100E582A8 /* MathKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B447DFFE1A913C6C00E582A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B447E0121A913C8100E582A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B447E01D1A913C8100E582A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B447E0211A913C8100E582A8 /* MathKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B447DFE31A913C6C00E582A8 = {
+			isa = PBXGroup;
+			children = (
+				B4068CC71A91486A00C30BAB /* LICENSE */,
+				B4068CC81A91486A00C30BAB /* README.md */,
+				B447DFEE1A913C6C00E582A8 /* MathKitFramework */,
+				B447E0041A913C6C00E582A8 /* MathKitFrameworkTests */,
+				B447E0171A913C8100E582A8 /* MathKit */,
+				B447E0261A913C8100E582A8 /* MathKitTests */,
+				B447DFED1A913C6C00E582A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B447DFED1A913C6C00E582A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B447DFEC1A913C6C00E582A8 /* MathKitFramework.app */,
+				B447E0011A913C6C00E582A8 /* MathKitFrameworkTests.xctest */,
+				B447E0161A913C8100E582A8 /* MathKit.framework */,
+				B447E0201A913C8100E582A8 /* MathKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B447DFEE1A913C6C00E582A8 /* MathKitFramework */ = {
+			isa = PBXGroup;
+			children = (
+				B447E0361A913CED00E582A8 /* Classes */,
+				B447DFF51A913C6C00E582A8 /* Main.storyboard */,
+				B447DFF81A913C6C00E582A8 /* Images.xcassets */,
+				B447DFFA1A913C6C00E582A8 /* LaunchScreen.xib */,
+				B447DFEF1A913C6C00E582A8 /* Supporting Files */,
+			);
+			path = MathKitFramework;
+			sourceTree = "<group>";
+		};
+		B447DFEF1A913C6C00E582A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B447DFF01A913C6C00E582A8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B447E0041A913C6C00E582A8 /* MathKitFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				B447E0071A913C6C00E582A8 /* MathKitFrameworkTests.swift */,
+				B447E0051A913C6C00E582A8 /* Supporting Files */,
+			);
+			path = MathKitFrameworkTests;
+			sourceTree = "<group>";
+		};
+		B447E0051A913C6C00E582A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B447E0061A913C6C00E582A8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B447E0171A913C8100E582A8 /* MathKit */ = {
+			isa = PBXGroup;
+			children = (
+				B447E03F1A913D5C00E582A8 /* Classes */,
+				B447E01A1A913C8100E582A8 /* MathKit.h */,
+				B447E0181A913C8100E582A8 /* Supporting Files */,
+			);
+			path = MathKit;
+			sourceTree = "<group>";
+		};
+		B447E0181A913C8100E582A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B447E0191A913C8100E582A8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B447E0261A913C8100E582A8 /* MathKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				B447E0291A913C8100E582A8 /* MathKitTests.swift */,
+				B447E0271A913C8100E582A8 /* Supporting Files */,
+			);
+			path = MathKitTests;
+			sourceTree = "<group>";
+		};
+		B447E0271A913C8100E582A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B447E0281A913C8100E582A8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B447E0361A913CED00E582A8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B447E0371A913CED00E582A8 /* App Delegate */,
+				B447E0391A913CED00E582A8 /* Controllers */,
+				B447E03B1A913CED00E582A8 /* Models */,
+				B447E03C1A913CED00E582A8 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B447E0371A913CED00E582A8 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				B447E0381A913CED00E582A8 /* AppDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		B447E0391A913CED00E582A8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B447E03A1A913CED00E582A8 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B447E03B1A913CED00E582A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B447E03C1A913CED00E582A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B447E03F1A913D5C00E582A8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B447E0401A913D5C00E582A8 /* Controllers */,
+				B447E0411A913D5C00E582A8 /* Models */,
+				B447E0421A913D5C00E582A8 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B447E0401A913D5C00E582A8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B447E0411A913D5C00E582A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B447E0431A913DF800E582A8 /* Circle.swift */,
+				B447E0441A913DF800E582A8 /* ImaginaryNumber.swift */,
+				B447E0451A913DF800E582A8 /* Number.swift */,
+				B447E0461A913DF900E582A8 /* Point.swift */,
+				B447E0471A913DF900E582A8 /* Rectangle.swift */,
+				B447E0481A913DF900E582A8 /* Shape.swift */,
+				B4068CBF1A91444F00C30BAB /* Vector.swift */,
+				B4068CC11A9147B000C30BAB /* Matrix.swift */,
+				B4068CC31A9147E200C30BAB /* Algorithms.swift */,
+				B4068CC51A91482100C30BAB /* Ciphers.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B447E0421A913D5C00E582A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B447E0131A913C8100E582A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B447E01B1A913C8100E582A8 /* MathKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B447DFEB1A913C6C00E582A8 /* MathKitFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B447E00B1A913C6C00E582A8 /* Build configuration list for PBXNativeTarget "MathKitFramework" */;
+			buildPhases = (
+				B447DFE81A913C6C00E582A8 /* Sources */,
+				B447DFE91A913C6C00E582A8 /* Frameworks */,
+				B447DFEA1A913C6C00E582A8 /* Resources */,
+				B447E0321A913C8100E582A8 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B447E02C1A913C8100E582A8 /* PBXTargetDependency */,
+			);
+			name = MathKitFramework;
+			productName = MathKitFramework;
+			productReference = B447DFEC1A913C6C00E582A8 /* MathKitFramework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B447E0001A913C6C00E582A8 /* MathKitFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B447E00E1A913C6C00E582A8 /* Build configuration list for PBXNativeTarget "MathKitFrameworkTests" */;
+			buildPhases = (
+				B447DFFD1A913C6C00E582A8 /* Sources */,
+				B447DFFE1A913C6C00E582A8 /* Frameworks */,
+				B447DFFF1A913C6C00E582A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B447E0031A913C6C00E582A8 /* PBXTargetDependency */,
+			);
+			name = MathKitFrameworkTests;
+			productName = MathKitFrameworkTests;
+			productReference = B447E0011A913C6C00E582A8 /* MathKitFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B447E0151A913C8100E582A8 /* MathKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B447E02F1A913C8100E582A8 /* Build configuration list for PBXNativeTarget "MathKit" */;
+			buildPhases = (
+				B447E0111A913C8100E582A8 /* Sources */,
+				B447E0121A913C8100E582A8 /* Frameworks */,
+				B447E0131A913C8100E582A8 /* Headers */,
+				B447E0141A913C8100E582A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathKit;
+			productName = MathKit;
+			productReference = B447E0161A913C8100E582A8 /* MathKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B447E01F1A913C8100E582A8 /* MathKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B447E0331A913C8100E582A8 /* Build configuration list for PBXNativeTarget "MathKitTests" */;
+			buildPhases = (
+				B447E01C1A913C8100E582A8 /* Sources */,
+				B447E01D1A913C8100E582A8 /* Frameworks */,
+				B447E01E1A913C8100E582A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B447E0231A913C8100E582A8 /* PBXTargetDependency */,
+				B447E0251A913C8100E582A8 /* PBXTargetDependency */,
+			);
+			name = MathKitTests;
+			productName = MathKitTests;
+			productReference = B447E0201A913C8100E582A8 /* MathKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B447DFE41A913C6C00E582A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Robert Dimitrov";
+				TargetAttributes = {
+					B447DFEB1A913C6C00E582A8 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B447E0001A913C6C00E582A8 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B447DFEB1A913C6C00E582A8;
+					};
+					B447E0151A913C8100E582A8 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B447E01F1A913C8100E582A8 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B447DFEB1A913C6C00E582A8;
+					};
+				};
+			};
+			buildConfigurationList = B447DFE71A913C6C00E582A8 /* Build configuration list for PBXProject "MathKitFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B447DFE31A913C6C00E582A8;
+			productRefGroup = B447DFED1A913C6C00E582A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B447DFEB1A913C6C00E582A8 /* MathKitFramework */,
+				B447E0001A913C6C00E582A8 /* MathKitFrameworkTests */,
+				B447E0151A913C8100E582A8 /* MathKit */,
+				B447E01F1A913C8100E582A8 /* MathKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B447DFEA1A913C6C00E582A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B447DFF71A913C6C00E582A8 /* Main.storyboard in Resources */,
+				B447DFFC1A913C6C00E582A8 /* LaunchScreen.xib in Resources */,
+				B447DFF91A913C6C00E582A8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B447DFFF1A913C6C00E582A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B447E0141A913C8100E582A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B447E01E1A913C8100E582A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B447DFE81A913C6C00E582A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B447E03E1A913CED00E582A8 /* ViewController.swift in Sources */,
+				B447E03D1A913CED00E582A8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B447DFFD1A913C6C00E582A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B447E0081A913C6C00E582A8 /* MathKitFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B447E0111A913C8100E582A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B447E04D1A913DF900E582A8 /* Rectangle.swift in Sources */,
+				B447E04E1A913DF900E582A8 /* Shape.swift in Sources */,
+				B447E04C1A913DF900E582A8 /* Point.swift in Sources */,
+				B4068CC01A91444F00C30BAB /* Vector.swift in Sources */,
+				B4068CC61A91482100C30BAB /* Ciphers.swift in Sources */,
+				B4068CC21A9147B000C30BAB /* Matrix.swift in Sources */,
+				B4068CC41A9147E200C30BAB /* Algorithms.swift in Sources */,
+				B447E04A1A913DF900E582A8 /* ImaginaryNumber.swift in Sources */,
+				B447E0491A913DF900E582A8 /* Circle.swift in Sources */,
+				B447E04B1A913DF900E582A8 /* Number.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B447E01C1A913C8100E582A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B447E02A1A913C8100E582A8 /* MathKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B447E0031A913C6C00E582A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B447DFEB1A913C6C00E582A8 /* MathKitFramework */;
+			targetProxy = B447E0021A913C6C00E582A8 /* PBXContainerItemProxy */;
+		};
+		B447E0231A913C8100E582A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B447E0151A913C8100E582A8 /* MathKit */;
+			targetProxy = B447E0221A913C8100E582A8 /* PBXContainerItemProxy */;
+		};
+		B447E0251A913C8100E582A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B447DFEB1A913C6C00E582A8 /* MathKitFramework */;
+			targetProxy = B447E0241A913C8100E582A8 /* PBXContainerItemProxy */;
+		};
+		B447E02C1A913C8100E582A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B447E0151A913C8100E582A8 /* MathKit */;
+			targetProxy = B447E02B1A913C8100E582A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B447DFF51A913C6C00E582A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B447DFF61A913C6C00E582A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B447DFFA1A913C6C00E582A8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B447DFFB1A913C6C00E582A8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B447E0091A913C6C00E582A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B447E00A1A913C6C00E582A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B447E00C1A913C6C00E582A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = MathKitFramework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B447E00D1A913C6C00E582A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = MathKitFramework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B447E00F1A913C6C00E582A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MathKitFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathKitFramework.app/MathKitFramework";
+			};
+			name = Debug;
+		};
+		B447E0101A913C6C00E582A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MathKitFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathKitFramework.app/MathKitFramework";
+			};
+			name = Release;
+		};
+		B447E0301A913C8100E582A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = MathKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B447E0311A913C8100E582A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = MathKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B447E0341A913C8100E582A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MathKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathKitFramework.app/MathKitFramework";
+			};
+			name = Debug;
+		};
+		B447E0351A913C8100E582A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MathKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathKitFramework.app/MathKitFramework";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B447DFE71A913C6C00E582A8 /* Build configuration list for PBXProject "MathKitFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B447E0091A913C6C00E582A8 /* Debug */,
+				B447E00A1A913C6C00E582A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B447E00B1A913C6C00E582A8 /* Build configuration list for PBXNativeTarget "MathKitFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B447E00C1A913C6C00E582A8 /* Debug */,
+				B447E00D1A913C6C00E582A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B447E00E1A913C6C00E582A8 /* Build configuration list for PBXNativeTarget "MathKitFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B447E00F1A913C6C00E582A8 /* Debug */,
+				B447E0101A913C6C00E582A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B447E02F1A913C8100E582A8 /* Build configuration list for PBXNativeTarget "MathKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B447E0301A913C8100E582A8 /* Debug */,
+				B447E0311A913C8100E582A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B447E0331A913C8100E582A8 /* Build configuration list for PBXNativeTarget "MathKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B447E0341A913C8100E582A8 /* Debug */,
+				B447E0351A913C8100E582A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B447DFE41A913C6C00E582A8 /* Project object */;
+}
